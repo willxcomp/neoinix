@@ -1,0 +1,528 @@
+html {
+    scroll-behavior: smooth;
+}
+.header {
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items:center;  
+    justify-content:left;
+    margin: 0%; 
+}
+.imagem-fundo-inicial {
+    width: 100%;
+    height: 100%;   
+    margin: 0%;
+}
+.Cabecalho {
+    padding: 20px;
+    top: 0;
+    left: 15px;
+    position: absolute;
+}
+.Cabecalho nav {
+    position:relative;
+    float: right;
+    margin-top: 12px;
+    left: 280%;
+}
+
+.Cabecalho nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.botoes-quem-somos {
+    display: inline;
+margin-top: 10px;
+margin-left: -25px;
+}
+.botoes-servicos {
+    display: inline;
+margin-top: 10px;
+margin-left: 17px;
+}
+.botoes-contatos {
+    display: inline;
+margin-top: 10px;
+margin-left: 20px;
+}
+.Cabecalho nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.imagem-logo {
+    float: left;
+    top: 85%;
+    color: #fff;
+}
+.imagem-central {
+    position: absolute;
+    top: 350%;
+    left: 185%;
+    transform: translate(-50%, -50%);
+}
+
+.imagem-texto {
+    position: absolute;
+    top: 720%;
+    left: 185%;
+    transform: translate(-50%, -50%);
+}
+
+
+.quem-somos {
+    position: relative;
+}
+
+.quem-somos img {
+    position: absolute;
+}
+
+
+.quem-somos {
+    width: 400px;
+    height: 300px;
+}
+
+
+.nossa-missao {
+    position: relative;
+}
+
+.nossa-missao img {
+    position: absolute;
+}
+
+
+.nossa-missao {
+    width: 400px; 
+    height: 300px; 
+}
+
+.imagem-lateral-1 {
+    margin-top: 100px;
+    width: 260%;
+    left: 185%;
+}
+
+.fundo-texto-1 {
+    width: 250%;
+    top: 60%;
+}
+
+.logo-imagem-lateral-1 {
+    top: 35%;
+    left: 405%;
+}
+
+.imagem-texto-1 {
+    top: 75%;
+    left: 10%;
+}
+
+.fundo-texto-2 {
+    top: 300%;
+    left: 160%;
+}
+
+.imagem-texto-2 {
+    top: 300%;
+    left: -10%;
+}
+
+.imagem-lateral-2 {
+    left: 185%;
+    top: 285%;
+    margin-top: 100px;
+    width: 260%;
+}
+.logo-imagem-lateral-2 {
+    top: 330%;
+    left: 195%;
+}
+
+.quem-somos-titulo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    top: 200px;
+    position: absolute;
+    left: 120px;
+    font-size: 40px;
+}
+
+.quem-somos-subtitulo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #00A0A8;
+    position: absolute;
+    top: 330px;
+    left: 10%;
+}
+
+.p-quem-somos {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    width: 230%;
+    font-size: 22px;
+}
+.p-texto-quem-somos-2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    position: absolute;
+    top: 550px;
+    left: 10%;
+    width: 230%;
+    font-size: 22px;
+}
+.p-texto-quem-somos-3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    position: absolute;
+    top: 730px;
+    left: 10%;
+    width: 230%;
+    font-size: 22px;
+}
+.p-texto-quem-somos-4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    position: absolute;
+    top: 840px;
+    left: 10%;
+    width: 230%;
+    font-size: 22px;
+}
+.nossa-missao-titulo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    position: absolute;
+    top: 970px;
+    left: 850px;
+    width: 230%;
+    font-size: 40px;
+}
+.nossa-missao-subtitulo {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #00A0A8;
+    position: absolute;
+    top: 1080px;
+    left: 195%;
+    width: 230%;
+    font-size: 22px;
+}
+.p-texto-nossa-missao-1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    position: absolute;
+    top: 1150px;
+    left: 195%;
+    width: 230%;
+    font-size: 27px;
+}
+.p-texto-nossa-missao-1-2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    position: absolute;
+    top: 1215px;
+    left: 195%;
+    width: 230%;
+    font-size: 27px;
+}
+.p-texto-nossa-missao-2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    position: absolute;
+    top: 1300px;
+    left: 195%;
+    width: 230%;
+    font-size: 27px;
+}
+.nossos-servicos {
+    position: relative;
+    width: 400px; 
+    height: 300px;
+    top: 1370px;
+}
+.imagem-nossos-servicos {
+    left: 170%;
+    top: 0%;
+    position: absolute;
+    color: #00A0A8;
+    width: 230%;
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+}
+.logo-nossos-servicos {
+    top: 10%;
+    left: 145%;
+    position: absolute;
+}
+.imagem-1 {
+    top: 170%;
+    left: 40%;
+    position: absolute;
+
+}
+.fundo-texto-imagem-1 {
+    top: 180%;
+    left: 100%;
+    position: absolute;
+}
+.subtitulo-nossos-servicos {
+    top: 40%;
+    left: 100%;
+    position: absolute;
+    color: #707070;
+    width: 260%;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+}
+.subtitulo-nossos-servicos-2 {
+    top: 55%;
+    left: 115%;
+    position: absolute;
+    color: #707070;
+    width: 260%;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+}
+.subtitulo-nossos-servicos-3 {
+    top: 70%;
+    left: 150%;
+    position: absolute;
+    color: #00A0A8;
+    width: 260%;
+    font-size: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+}
+.texto-imagem-1 {
+    top: 180%;
+    left: 110%;
+    position: absolute;
+    color: #707070;
+    font-size: 25px;
+    width: 130%;
+}
+
+.imagem-2 {
+    top: 260%;
+    left: 360%;
+    position: absolute;
+
+}
+.fundo-texto-imagem-2 {
+    top: 259%;
+    left: 195%;
+    position: absolute;
+}
+
+.texto-da-imagem-2 {
+    top: 260%;
+    left: 200%;
+    position: absolute;
+    color: #707070;
+    font-size: 25px;
+    width: 130%;
+}
+
+.terceira-imagem {
+    top: 340%;
+    left: 40%;
+    position: absolute;
+
+}
+
+.fundo-terceira-imagem {
+    top: 340%;
+    left: 100%;
+    position: absolute;
+}
+.texto-da-imagem-3 {
+    top: 340%;
+    left: 110%;
+    position: absolute;
+    color: #707070;
+    font-size: 25px;
+    width: 130%;
+}
+
+.quarta-imagem {
+    top: 410%;
+    left: 360%;
+    position: absolute;
+
+}
+
+.fundo-quarta-imagem {
+    top: 419%;
+    left: 195%;
+    position: absolute;
+}
+.texto-da-imagem-4 {
+    top: 419%;
+    left: 200%;
+    position: absolute;
+    color: #707070;
+    font-size: 25px;
+    width: 130%;
+}
+
+.quinta-imagem {
+    top: 500%;
+    left: 40%;
+    position: absolute;
+
+}
+
+.fundo-quinta-imagem {
+    top: 500%;
+    left: 100%;
+    position: absolute;
+}
+.texto-da-imagem-5 {
+    top: 500%;
+    left: 110%;
+    position: absolute;
+    color: #707070;
+    font-size: 25px;
+    width: 130%;
+}
+.exemplo-1 {
+    top: 225%;
+    left: 30%;
+    position: absolute;
+    color: #00A0A8;
+    width: 100%;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+}
+.exemplo-2 {
+    top: 310%;
+    left: 370%;
+    position: absolute;
+    color: #00A0A8;
+    width: 70%;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+}
+
+.exemplo-3 {
+top: 395%;
+left: 50%;
+position: absolute;
+color: #00A0A8;
+width: 40%;
+font-size: 25px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+align-items: center;
+}
+
+.exemplo-4 {
+top: 465%;
+left: 360%;
+position: absolute;
+color: #00A0A8;
+width: 80%;
+font-size: 25px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+align-items: center;
+} 
+
+.exemplo-5 {
+    top: 565%;
+    left: 30%;
+    position: absolute;
+    color: #00A0A8;
+    width: 60%;
+    font-size: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-items: center;
+    } 
+
+/* Estilos para telas menores */
+
+@media only screen and (max-width: 768px) {
+    .Cabecalho nav {
+      float: none;
+      margin-top: 0;
+      left: 0;
+    }
+    
+    .imagem-central,
+    .imagem-texto,
+    .quem-somos,
+    .nossa-missao,
+    .nossos-servicos,
+    .imagem-1,
+    .imagem-2,
+    .terceira-imagem,
+    .quarta-imagem,
+    .quinta-imagem {
+      position: static;
+      transform: none;
+      top: auto;
+      left: auto;
+      margin-top: 20px; /* Espaçamento entre os elementos */
+      margin-bottom: 20px; /* Espaçamento entre os elementos */
+      width: 100%; /* Ocupa toda a largura disponível */
+      height: auto; /* Altura ajustada automaticamente */
+    }
+    
+    .imagem-lateral-1,
+    .imagem-lateral-2 {
+      margin-top: 20px; /* Espaçamento entre os elementos */
+      width: 100%; /* Ocupa toda a largura disponível */
+      height: auto; /* Altura ajustada automaticamente */
+    }
+    
+    .Cabecalho nav ul {
+      text-align: center;
+      margin: 0 auto;
+    }
+    
+    .quem-somos-titulo,
+    .quem-somos-subtitulo,
+    .p-quem-somos,
+    .p-texto-quem-somos-2,
+    .p-texto-quem-somos-3,
+    .p-texto-quem-somos-4,
+    .nossa-missao-titulo,
+    .nossa-missao-subtitulo,
+    .p-texto-nossa-missao-1,
+    .p-texto-nossa-missao-1-2,
+    .p-texto-nossa-missao-2,
+    .subtitulo-nossos-servicos,
+    .subtitulo-nossos-servicos-2,
+    .subtitulo-nossos-servicos-3,
+    .texto-imagem-1,
+    .texto-da-imagem-2,
+    .texto-da-imagem-3,
+    .texto-da-imagem-4,
+    .texto-da-imagem-5,
+    .exemplo-1,
+    .exemplo-2,
+    .exemplo-3,
+    .exemplo-4,
+    .exemplo-5 {
+      position: static;
+      left: auto;
+      top: auto;
+      width: 100%; /* Ocupa toda a largura disponível */
+      text-align: left;
+      font-size: 16px; /* Tamanho de fonte ajustável */
+    }
+  }
+  
